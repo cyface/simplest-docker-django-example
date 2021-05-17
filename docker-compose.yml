@@ -1,7 +1,7 @@
 version: "3.6"
 services:
   django:
-    image: simplest-docker-example
+    build: .
     environment:
      - MAGIC_MESSAGE=Docker Compose
      - SECRET_KEY=23408728djlkjd37nmckdllsorhh377889s900&&^623
